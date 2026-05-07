@@ -1,0 +1,82 @@
+import { StyleSheet } from 'react-native';
+
+export const estilos = StyleSheet.create({
+  area_fundo: {
+    flex: 1,
+    backgroundColor: '#f5f5f5',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingVertical: 20,
+    paddingHorizontal: 15,
+    borderRadius: 20,
+    borderWidth: 1,
+    borderColor: '#e0e0e0',
+  },
+  cabecalho: {
+    width: '100%',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'transparent',
+    padding: 10,
+  },
+  imgCabecalho: {
+    width: 100,
+    height: 50,
+    resizeMode: 'contain',
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: '#ddd',
+  },
+  cabecalhoLista: {
+    fontSize: 26,
+    fontWeight: 'bold',
+    color: '#000',
+    textAlign: 'center',
+    marginTop: 20,
+    marginBottom: 20,
+    width: '100%',
+  },
+  card: {
+    width: '95%',
+    alignSelf: 'center',
+    backgroundColor: '#b0c4de',
+    borderRadius: 15,
+    paddingHorizontal: 20,
+    paddingVertical: 18,
+    marginBottom: 10,
+  },
+  pais: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    color: '#000',
+    marginBottom: 6,
+  },
+  capital: {
+    fontSize: 16,
+    color: '#555',
+  },
+  separador: {
+  },
+  rodapeLista: {
+    fontSize: 14,
+    color: '#888',
+    textAlign: 'center',
+    marginTop: 10,
+    marginBottom: 20,
+  },
+  rodape: {
+    width: '100%',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'transparent',
+    padding: 10,
+  },
+  imgRodape: {
+    width: 100,
+    height: 50,
+    resizeMode: 'contain',
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: '#ddd',
+  },
+});
